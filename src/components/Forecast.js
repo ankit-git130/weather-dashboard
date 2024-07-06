@@ -1,8 +1,7 @@
-// src/components/Forecast.js
 import React from 'react';
 import { Typography, Grid, Card, CardContent, CardMedia } from '@mui/material';
 import { Line } from 'react-chartjs-2';
-import 'chart.js/auto'; // Required for Chart.js
+import 'chart.js/auto';
 
 const Forecast = ({ forecast }) => {
     const dates = forecast.list.map(item => new Date(item.dt * 1000).toLocaleDateString());

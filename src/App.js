@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState } from 'react';
 import { ThemeProvider, CssBaseline, Container, Grid, Paper, Typography } from '@mui/material';
 import SearchBar from './components/SearchBar';
